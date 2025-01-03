@@ -1,0 +1,85 @@
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f4f4f9;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      background: #67b3d7;
+    }
+
+    .input-group {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .input-group input {
+      flex: 1;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .input-group button {
+      margin-left: 8px;
+      padding: 10px 12px;
+      font-size: 14px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .input-group .delete-btn {
+      background: #e74c3c;
+      color: #fff;
+    }
+
+    .footer{      
+      display: flex;
+      justify-content: center;
+      gap: 80px;
+      margin-top: 50px;
+    }
+    .reset{
+      font-size:17px;
+      padding: 5px 15px;
+      background: #e74c3c;
+      text-align: center;
+      border-radius: 5px;
+    }
+    #send-info{
+      font-size:17px;
+      padding: 5px 15px;
+      background: #f8fc2e;
+      border-radius: 5px;
+    }
+    .reset:hover{
+      background: #c0392b;
+      cursor: pointer;
+    }
+    .input-group .delete-btn:hover {
+      background: #c0392b;
+    }
+
+    .input-group .send-btn {
+      background: #2ecc71;
+      color: #fff;
+    }
+
+    .input-group .send-btn:hover {
+      background: #27ae60;
+    }
+    .title{
+      font-size: 24px;
+      text-align: center;
+    }
